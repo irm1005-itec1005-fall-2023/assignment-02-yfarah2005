@@ -2,6 +2,12 @@
 <html lang="en-ca">
 
 <head>
+<!-- 
+  CITATIONS
+  form styles are from chatgpt.
+  Took out reset file because it took off half my page.
+}
+-->
   <!-- Set the page title -->
   <title>Assignment 02</title>
 
@@ -15,19 +21,319 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
   <!-- We are using a CSS Reset file to standardize browser default css -->
-  <link rel="stylesheet" href="./reset.css" />
 
   <!-- This is where all of our awesome CSS code goes -->
   <link rel="stylesheet" href="./style.css" />
 </head>
 
 <body>
-  <!--
+    <Header>
+    <h2> NBA 2022-2023 Most Valuable Player Voting </h2>
+    <p> Official Voting site of the NBA MVP Award Presented by KIA </p>
+    <img src= "./images/nbaaa.jpg"
+    alt="NBA logo">
 
-    YOU HAVE TO MODIFY THE HTML TO BUILD YOUR AWESOME PAGE
+    <nav> 
+    <h3> Website Menu </h3>
+    <ul>
+      <li><a href="#">Home </a> </li>
+    </ul>
+    </nav>
+    </Header>
 
-  -->
-  <h1>Assignment 02</h1>
-</body>
+    <main>
+      <section class="cont">
+      <h1> MVP Voting Information</h1>
+    </section>
 
+
+      <section >
+        <h2> Content</h2>
+
+        <ul>
+          <li>
+            <a href="#summary"> Explanation of The Award</a>
+          </li>
+          <li><a href="#history"> Award History </a></li>
+          <li><a href="#voting"> How to Vote</a></li>
+          <li><a href="#table"> List Of Mvp Candidates </a></li>
+          <li><a href="#form"> Voting Station </a></li>
+          <li><a href="#contact"> Contact Information </a></li>
+        </ul>
+      </section>
+     
+      <section>
+        <h2 id="summary"> Explanation of The MVP Award </h2> 
+      <p> The Kia MVP Award is a prestigious accolade presented annually in the National Basketball Association (NBA) to recognize the league's Most Valuable Player. 
+        This award is given to the player who has made the most significant impact on their team's success during the regular NBA season, demonstrating exceptional skills, leadership, and overall contributions to their team's performance. 
+        The Kia MVP Award is highly coveted in the world of professional basketball and serves as a symbol of individual excellence and achievement.
+         </p>
+      
+        </section>
+       
+        <section>
+          <h2 id="history"> History of The MVP Award</h2>
+         
+ 
+             
+          <p>The NBA Most Valuable Player (MVP) award has a rich history dating back to its inception in the 1955-1956 season. 
+            The award was established to honor the league's most outstanding player during the regular season, recognizing their exceptional skills, leadership, and impact on their team's success. 
+            The inaugural MVP was awarded to Bob Pettit of the St. Louis Hawks, setting a tradition of celebrating basketball greatness. 
+           </p>
+
+           <p> Notable winners of The Mvp Award Include: </p>
+           <ul>
+            <li> Bill Russell</li>
+            <li> Wilt Chamberlain</li>
+            <li> Micheal Jordan </li>
+            <li> Lebron James </li>
+            <li> Kobe Bryant </li>
+            <li> Maguc Johnson </li>
+            <li> Kevin Durant</li>
+            <li> Larry Bird</li>
+           </ul>
+
+  
+
+      </section>
+
+      <section>
+        <h2 id="voting">How to Submit Your Vote </h2> 
+  
+        <p> To vote for the NBA MVP, visit the official NBA website and navigate to the designated MVP voting section. 
+          You'll typically find a table displaying the top 10 candidates based on their performance during the regular season.
+           Carefully review the statistics, achievements, and impact of each player to make an informed decision. 
+           Once you've decided on your preferred candidate, scroll down or locate the provided form on the website. 
+           Fill out the form with your name, email address, and any additional required information. 
+           Follow the instructions provided to cast your vote for the player you believe deserves the prestigious NBA MVP award. 
+           Your vote contributes to the exciting process of recognizing the league's most valuable player, so make your choice count!</p>
+      
+        </section>
+
+        <h3 id="table"> Top 10 Most Valube Player Candidates (with stats) </h3>
+<table>
+<section>
+<thead>
+<tr>
+<th> MVP Ranking</th>
+<th>Player Name</th>
+<th> Points per game</th>
+<th>Asissts per game</th>
+<th>Rebounds per game</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Joel Embiid</td>
+<td>33.1</td>
+<td>4.2</td>
+<td>10.2</td>
+</tr>
+<tr>
+<td>2</td>
+<td> Nikola Jokic</td>
+<td> 24.5</td>
+<td> 9.8</td>
+<td>11.8</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Giannis Antetokounmpo</td>
+<td>31.1</td>
+<td>5.7</td>
+<td> 11.8</td>
+</tr>
+<tr>
+<td>4</td>
+<td> Jayson Tatum</td>
+<td> 30.1 </td>
+<td>4.6</td>
+<td>8.8</td>
+</tr>
+<tr>
+<td>5</td>
+<td> Shai Gilgeous-Alexander</td>
+<td> 31.4</td>
+<td> 5.5</td>
+<td> 4.8</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Donavan Mitchell</td> 
+<td>28.3</td>
+<td>4.4</td>
+<td>4.3</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Domantas Sabonis</td>
+<td> 19.1</td>
+<td>7.3</td>
+<td>12.3</td>
+</tr>
+<tr>
+<td>8</td>
+<td> Luka Doncic</td>
+<td>32.4</td>
+<td>8.0</td>
+<td>8.6</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Stephen Curry</td>
+<td>29.4</td>
+<td>6.3</td>
+<td>6.1</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Jimmy Butler</td>
+<td>22.94</td>
+<td>5.3</td>
+<td>5.9</td>
+</tr>
+</table>
+</section>
+
+<Section>
+  <h2 id="form">Voting Station</h2>
+<form>
+  <fieldset>
+    <legend>Vote Here :</legend>
+    <label for="name">Name:</label>
+    <input
+      type="text"
+      id="name"
+      name="name"
+      autocomplete="name"
+      required
+    />
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" autocomplete="email" />
+
+    <label for="phone">Phone:</label>
+    <input type="tel" id="phone" name="phone" autocomplete="tel" />
+
+    <label for="VT">Players:</label>
+    <select id="VT" name="VT" required>
+      <option value="">--Please choose an option--</option>
+      <option value="Player1">Joel Embiid</option>
+      <option value="player2">Nikola Jokic</option>
+      <option value="Player3">Giannas Antetokounmpo</option>
+      <option value="player4"> Jayson Tatum</option>
+      <option value="Player5">Shai Gilgeous-Alexander</option>
+      <option value="Player6">Donavan Mitchell</option>
+      <option value="Player7">Domantas Sabonis</option>
+      <option value="Player8">Luka Donicic</option>
+      <option value="Player9">Stephen Curry</option>
+      <option value="Player10">Jimmy Butler</option>
+    </select>
+
+      <label for="topic"> Reason for vote:</label>
+      <input type="text" id="reason" name="topic" required />
+   
+    
+  </fieldset>
+
+  <fieldset>
+    <legend>Addition Information:</legend>
+
+    <label for="topic">Subject/Topic:</label>
+    <input type="text" id="topic" name="topic" required />
+
+    <label>Feedback Type:</label>
+    <input
+      type="radio"
+      id="suggestion"
+      name="feedback_type"
+      value="suggestion"
+      required
+    />
+    <label for="suggestion">Suggestion</label>
+    <input
+      type="radio"
+      id="concern"
+      name="feedback_type"
+      value="concern"
+    />
+    <label for="concern">Concern</label>
+    <input
+      type="radio"
+      id="appreciation"
+      name="feedback_type"
+      value="appreciation"
+    />
+    <label for="appreciation">Appreciation</label>
+
+    <label for="feedback">Feedback Details:</label><br />
+    <textarea
+      id="feedback"
+      name="feedback"
+      rows="4"
+      cols="50"
+      required
+    ></textarea>
+
+    <label for="priority">Priority Level:</label>
+    <select id="priority" name="priority">
+      <option value="low">Low</option>
+      <option value="medium">Medium</option>
+      <option value="high">High</option>
+    </select>
+  </fieldset>
+
+  <fieldset>
+    <legend>Follow-up Information:</legend>
+
+    <input type="checkbox" id="MVPPOLL" name="MVPPOLL" value="yes" />
+    <label for="MVPPOLL"
+      >I would like to updates on the MVP poll Leaders.
+    </label
+    >
+
+    <label for="contact_method"> Preferred Contact Method:</label>
+    <select id="contact_method" name="contact_method">
+      <option value="email">Email</option>
+      <option value="phone">Phone</option>
+    </select>
+  </fieldset>
+
+  <fieldset>
+    <legend>Submit Vote:</legend>
+
+    <input type="checkbox" id="consent" name="consent" required />
+    <label for="consent">I consent to give my vote to the NBA.</label>
+
+    <input type="submit" value="Submit Vote" />
+  </fieldset>
+</form>
+</section> 
+
+<section>
+  <h2 id="contact"> Contact Information </h2> 
+<p> Contact Information : 613-011-0111, NBA@gmail.com </p>
+ 
+
+  </section>
+ </main>
+
+ <footer>
+    <nav> 
+      <h3>Site footer </h3>
+      <ul>
+       <li><a href="#">Home </a> </li>
+      </ul>
+      <img src= "./images/nbaaa.jpg" alt="NBA logo">
+    </nav>
+      <p> 2023 NBA MVP Voting. All rights reserved.
+        The content, design, and images on this website are protected by copyright law. Any unauthorized use, reproduction, or distribution of the materials on this site without the written permission of the NBA MVP Voting website administrators is strictly prohibited.
+       The National Basketball Association, its logo, and all related marks are trademarks of the NBA and may not be used without permission.
+        For inquiries or requests regarding the use of content from this website, please contact us at : 613-292-2019 </p>
+        <p> &copy2023</p>
+
+  </footer>
+  </body>
 </html>
+
